@@ -1,0 +1,150 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30147.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x009FC1B0 -il C:\\Users\\IvanSn\\AppData\\Local\\Temp\\_CL_2aaf57f7ast -typedil -f Dane_Osobowe.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930147 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -AI C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\ -AI C:\\Program Files (x86)\\Windows Kits\\10\\References -AI C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\Facades\\ -Gil -D_MANAGED -D_M_CEE=001 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -D_DEBUG -D_UNICODE -DUNICODE -EHa -D_CPPUNWIND -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\Dane_Osobowe.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Data.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Drawing.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Windows.Forms.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Xml.dll -analyze:projectdirectory C:\\Users\\IvanSn\\source\\repos\\PrRej\\PrRej -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\MixedRecommendedRules.ruleset -analyze:quiet -FC -errorreport:prompt -clr:nostdlib -clrver4.08.4515.0 -D__CLR_VER=40804515 -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/x64/debug/.netframework,version=v4.7.2.assemblyattributes.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1a254a93e0514722b38e3facba1bae1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/regs.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "943a67a1edb7666c0d0f28a8ededd2b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/regs.h"
+          },
+          "hashes": {
+            "md5": "05cfaeac3bd8772cd34f86a8c7461159"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformpeselua.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "415ecfc6862e75faa6249884ef619953"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformpeselua.h"
+          },
+          "hashes": {
+            "md5": "2364006cd4d2c934264ba7bdc369ae30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformopt.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "4f31760f11f538de09f1d38bc36d610a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformopt.h"
+          },
+          "hashes": {
+            "md5": "81711c8be0753fba06803feaa6342e80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformadres.h"
+          },
+          "hashes": {
+            "md5": "5ee3c1a5aa737fc5390b0f6b0992ab47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/dane_osobowe.h"
+          },
+          "hashes": {
+            "md5": "19fe680a84d9187a810a7c905925f139"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myformadres.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b55806e3aaaf1856456366a38f83fdb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myform.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "53ddd41dcc7cd74442f5ada970b87ee8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/myform.h"
+          },
+          "hashes": {
+            "md5": "f6c27ef5bcaec9c90d08d8cffce432b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ivansn/source/repos/prrej/prrej/dane_osobowe.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b19d1def2d04e4cee916be20b8b57f4c"
+          }
+        }
+      ]
+    }
+  ]
+}

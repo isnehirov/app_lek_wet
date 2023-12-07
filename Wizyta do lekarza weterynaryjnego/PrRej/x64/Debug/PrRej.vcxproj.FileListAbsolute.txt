@@ -1,0 +1,11 @@
+C:\Users\IvanSn\source\repos\PrRej\PrRej\x64\Debug\PrRej.Dane_Osobowe.resources
+C:\Users\IvanSn\source\repos\PrRej\PrRej\x64\Debug\PrRej.MyForm.resources
+C:\Users\IvanSn\source\repos\PrRej\PrRej\x64\Debug\PrRej.Rodzaj_Zwierza.resources
+C:\Users\IvanSn\source\repos\PrRej\PrRej\x64\Debug\PrRej.MyFormOpt.resources
+C:\Users\IvanSn\source\repos\PrRej\PrRej\x64\Debug\PrRej.vcxproj.GenerateResource.cache
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.vcxproj.AssemblyReference.cache
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.Dane_Osobowe.resources
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.MyForm.resources
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.Rodzaj_Zwierza.resources
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.MyFormOpt.resources
+D:\Wizyta do lekarza weterynaryjnego\PrRej\x64\Debug\PrRej.vcxproj.GenerateResource.cache

@@ -1,0 +1,47 @@
+  PrRej.Dane_Osobowe.resources - Embedded, ContainedInManifestFile, 
+  PrRej.MyForm.resources - Embedded, ContainedInManifestFile, 
+  PrRej.Rodzaj_Zwierza.resources - Embedded, ContainedInManifestFile, 
+  PrRej.MyFormOpt.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly PrRej, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class user_data: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String imie : Public
+    System.String nazwisko : Public
+    System.String jednostka : Public
+    System.String data : Public
+    System.String godzina : Public
+    System.String rodzaj_zwierza : Public
+    System.String nr_telefonu : Public
+    System.String email : Public
+Struct get_data: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class PrRej.Dane_Osobowe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(user_data): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PrRej.MyFormAdres: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(user_data): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PrRej.MyFormOpt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(user_data): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PrRej.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PrRej.MyFormPeselUA: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
